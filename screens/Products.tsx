@@ -7,7 +7,8 @@ import {
   TouchableHighlight,
 } from "react-native";
 
-import type { Product as IProduct } from "../../data";
+// TODO: make this a newtwork request after arguing with the backend team
+import type { Product as IProduct } from "../data";
 
 const styles = StyleSheet.create({
   products: {
@@ -44,6 +45,7 @@ interface IProducts {
 export const Products = ({ products }: IProducts) => {
   const Product = (product: IProduct) => {
     return (
+      // TODO: we'll make this open a Product page with more details later
       <TouchableHighlight onPress={() => {}} style={styles.productContainer}>
         <View style={styles.product}>
           <Image
