@@ -39,16 +39,12 @@ const styles = StyleSheet.create({
 
 interface IProducts {
   products: IProduct[];
-  onProductSelected: (product: IProduct) => void;
 }
 
-export const Products = ({ products, onProductSelected }: IProducts) => {
+export const Products = ({ products }: IProducts) => {
   const Product = (product: IProduct) => {
     return (
-      <TouchableHighlight
-        onPress={() => onProductSelected(product)}
-        style={styles.productContainer}
-      >
+      <TouchableHighlight onPress={() => {}} style={styles.productContainer}>
         <View style={styles.product}>
           <Image
             accessibilityLabel="Product"
