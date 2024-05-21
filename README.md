@@ -9,7 +9,7 @@ You can clone this repository and browse on your local machine, run using [Expo 
 
 Please take some notes on the initial implementation as you browse through it, once you're ready provide your Github username to your recruiter the day before the Technical Test.
 
-10 minutes before the technical begins, you will receive an invite to a [Private Github Repository](https://github.com/handbi/app-code-test), please accept the invite and be prepared to screenshare the codebase in your browser before the technical begins.
+10 minutes before the technical begins, you will receive an invite to a [Private Github Repository](https://github.com/handbi/app-code-test), please accept the invite and be prepared to screenshare your browser with the [Github Pull Requests](https://github.com/handbi/app-code-test-reviews/pulls) before the technical begins.
 
 ## Pull Requests
 
